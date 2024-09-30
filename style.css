@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#96a3fa, #e7f2f6);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #b6a9da;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.container img {
+    width: 150px;
+    height: 150px; /* Adiciona a altura igual à largura */
+    border-radius: 50%; /* Torna a imagem redonda */
+    object-fit: cover; /* Garante que a imagem se ajuste dentro do círculo sem distorção */
+
+}
+
+h1 {
+    color: #5492e8;
+    font-family: 'Arial Black', sans-serif;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+    margin: 5px 0 20px 0;
+}
+
+.links a {
+    display: block;
+    background-color: #566197;
+    color: #ffd2ee;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #ffb3b3;
+    text-decoration: none;
+    font-size: 18px;
+} 
+.links a:hover {
+    background-color: #c665b5;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: black;
+}
